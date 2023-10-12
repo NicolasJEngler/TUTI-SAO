@@ -5,13 +5,13 @@ public class Hiking {
         int c = 6;
 
         if (a < b && b < c) {
-            System.out.println("ascenso");
+            System.out.println("up");
         } else if (a > b && b > c) {
-            System.out.println("descenso");
+            System.out.println("down");
         } else if (a < b && b > c) {
-            System.out.println("pico");
+            System.out.println("peak");
         } else if (a > b && b < c) {
-            System.out.println("abismo");
+            System.out.println("abyss");
         }
     }
 }
